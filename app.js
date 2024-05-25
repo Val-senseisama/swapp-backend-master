@@ -12,7 +12,7 @@ const { notFound, errorHandler } = require("./middleware/errorHandler");
 dbConnect();
 app.use(bodyparser.json());
 app.use(bodyparser.urlencoded({ extended: false }));
-app.use(morgan("dev"));
+//app.use(morgan("dev"));
 app.use(cookieParser());
 
 app.use("/api/user", authRouter);
