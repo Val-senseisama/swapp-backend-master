@@ -58,4 +58,4 @@ const productImgResize = async (req, res, next) => {
 //     next();
 // };
 
-module.exports = { uploadPhoto, productImgResize, blogImgResize };
+module.exports = { uploadPhoto, productImgResize };
