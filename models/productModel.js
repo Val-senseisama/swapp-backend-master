@@ -22,7 +22,7 @@ var productSchema = new mongoose.Schema(
     },
     category: {
       type: String,
-      required: true,
+      // required: true,
     },
     brand: {
       type: String,
@@ -32,6 +32,10 @@ var productSchema = new mongoose.Schema(
     },
     images: {
       type: Array,
+    },
+    whatsapp: {
+      type: Number,
+      required: true
     },
   },
   {
